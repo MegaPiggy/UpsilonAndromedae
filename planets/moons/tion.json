@@ -12,7 +12,12 @@
 		"semiMajorAxis": 1500,
 		"primaryBody": "Saffar",
 		"isMoon": true,
-		"isTidallyLocked": true
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": -1,
+			"y": 0,
+			"z": 0
+		}
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/blank_heightmap.png",

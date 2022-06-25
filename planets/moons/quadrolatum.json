@@ -13,7 +13,12 @@
 		"trueAnomaly": 120,
 		"primaryBody": "Majriti",
 		"isMoon": true,
-		"isTidallyLocked": true
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": -1,
+			"y": 0,
+			"z": 0
+		}
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/quadrolatum_heightmap.png",

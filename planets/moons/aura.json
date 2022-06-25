@@ -12,7 +12,12 @@
 		"semiMajorAxis": 1500,
 		"primaryBody": "Curiel",
 		"isMoon": true,
-		"isTidallyLocked": true
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": -1,
+			"y": 0,
+			"z": 0
+		}
 	},
 	"Water": {
 		"size": 94
