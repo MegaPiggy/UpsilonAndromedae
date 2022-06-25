@@ -1,0 +1,23 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>SAFFAR</ID>
+
+  <Entry>
+    <ID>SAFFAR_ENTRY</ID>
+    <Name>Saffar</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>SAFFAR_RUMOR</ID>
+      <SourceID>TITAWIN_ENTRY</SourceID>
+      <RumorName>Saffar</RumorName>
+      <Text>The first planet before Titawin.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SAFFAR_LANDING</ID>
+      <Text>Saffar is a gassy yellow-green planet and is the first planet before Titawin. The hottest planet in the star system.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

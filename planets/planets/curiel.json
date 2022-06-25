@@ -1,0 +1,71 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Curiel",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 20,
+    "surfaceSize": 400,
+    "hasMapMarker": true,
+    "ambientLight": 0.5
+  },
+  "Orbit": {
+    "semiMajorAxis": 52738,
+    "inclination": 0,
+    "eccentricity": 0.0055,
+    "primaryBody": "Titawin",
+    "longitudeOfAscendingNode": 74,
+    "argumentOfPeriapsis": 367.3,
+    "axialTilt": 0,
+    "trueAnomaly": 0,
+    "isMoon": false
+  },
+  "Lava": {
+    "size": 150
+  },
+  "Water": {
+    "size": 350
+  },
+  "Atmosphere": {
+    "size": 500,
+    "clouds": {
+      "outerCloudRadius": 500,
+      "innerCloudRadius": 450,
+      "fluidType": "cloud",
+      "texturePath": "planets/assets/curiel.png",
+      "tint": {
+        "r": 255,
+        "g": 187,
+        "b": 122,
+        "a": 255
+      }
+    },
+    "fogTint": {
+      "r": 255,
+      "g": 187,
+      "b": 122,
+      "a": 255
+    },
+    "fogDensity": 0.9,
+    "fogSize": 450,
+    "useAtmosphereShader": true,
+    "atmosphereTint": {
+      "r": 200,
+      "g": 150,
+      "b": 100,
+      "a": 255
+    }
+  },
+  "ShipLog": {
+    "xmlFile": "shipLogs/Curiel.xml",
+    "spriteFolder": "shipLogs/sprites/facts"
+  },
+  "Props": {
+    "reveal": [
+      {
+        "radius": 500,
+        "reveals": [ "CURIEL_LANDING" ],
+        "revealOn": "enter"
+      }
+    ]
+  }
+}

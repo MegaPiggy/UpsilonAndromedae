@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Capri",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 8,
+    "surfaceSize": 50,
+    "hasMapMarker": true,
+    "ambientLight": 0.25
+  },
+  "Orbit": {
+    "semiMajorAxis": 2500,
+    "primaryBody": "Majriti",
+    "isMoon": true,
+    "isTidallyLocked": true
+  },
+  "HeightMap": {
+    "heightMap": "planets/assets/blank_heightmap.png",
+    "textureMap": "planets/assets/capri.jpg",
+    "minHeight": 50,
+    "maxHeight": 50
+  }
+}

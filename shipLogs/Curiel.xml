@@ -1,0 +1,23 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>CURIEL</ID>
+
+  <Entry>
+    <ID>CURIEL_ENTRY</ID>
+    <Name>Curiel</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>CURIEL_RUMOR</ID>
+      <SourceID>TITAWIN_ENTRY</SourceID>
+      <RumorName>Curiel</RumorName>
+      <Text>The fourth planet from Titawin.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>CURIEL_LANDING</ID>
+      <Text>Curiel is a gassy yellow-orange planet and is the fourth planet from Titawin.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

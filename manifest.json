@@ -1,0 +1,9 @@
+{
+  "filename": "UpsilonAndromedae.dll",
+  "author": "MegaPiggy",
+  "name": "Upsilon Andromedae",
+  "uniqueName": "MegaPiggy.UpsilonAndromedae",
+  "version": "1.0.0",
+  "owmlVersion": "2.3.2",
+  "dependencies": [ "xen.NewHorizons" ]
+}

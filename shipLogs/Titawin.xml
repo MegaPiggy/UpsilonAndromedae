@@ -1,0 +1,22 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>TITAWIN</ID>
+
+  <Entry>
+    <ID>TITAWIN_ENTRY</ID>
+    <Name>Titawin</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>TITAWIN_RUMOR</ID>
+      <SourceID>UPSILON_ANDROMEDAE_ENTRY</SourceID>
+      <RumorName>Titawin</RumorName>
+      <Text>A yellow star.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>TITAWIN_FACT</ID>
+      <Text>A yellow star with 4 planets orbiting it.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

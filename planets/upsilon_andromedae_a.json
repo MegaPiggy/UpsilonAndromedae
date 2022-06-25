@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Titawin",
+	"starSystem": "MegaPiggy.UpsilonAndromedae",
+	"Base": {
+		"surfaceGravity": 146,
+		"surfaceSize": 1480,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared"
+	},
+	"Orbit": {
+		"semiMajorAxis": 1185,
+		"inclination": 41,
+		"eccentricity": 0.20680,
+		"primaryBody": "Upsilon Andromedae",
+		"showOrbitLine": true
+	},
+	"Atmosphere": {
+		"size": 3256,
+		"fogTint": {
+			"r": 216,
+			"g": 193,
+			"b": 153,
+			"a": 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 3256
+	},
+	"Star": {
+		"size": 2960,
+		"lightRadius": 100000,
+		"tint": {
+			"r": 181,
+			"g": 158,
+			"b": 25,
+			"a": 255
+		},
+		"solarFlareTint": {
+			"r": 215,
+			"g": 191,
+			"b": 110,
+			"a": 255
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "shipLogs/Titawin.xml",
+		"spriteFolder": "shipLogs/sprites/facts",
+		"mapMode": {
+			"revealedSprite": "shipLogs/sprites/mapmode/TitawinMapMode.png"
+		}
+	}
+}

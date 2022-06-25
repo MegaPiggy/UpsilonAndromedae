@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Upsilon Andromedae B",
+	"starSystem": "MegaPiggy.UpsilonAndromedae",
+	"Base": {
+		"surfaceGravity": 50,
+		"surfaceSize": 1000,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared"
+	},
+	"Orbit": {
+		"semiMajorAxis": 150000,
+		"inclination": 41,
+		"eccentricity": 0.20680,
+		"primaryBody": "Upsilon Andromedae",
+		"showOrbitLine": true
+	},
+	"Star": {
+		"size": 400,
+		"goSupernova": false,
+		"tint": {
+			"r": 204,
+			"g": 41,
+			"b": 0,
+			"a": 255
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "shipLogs/UpsilonAndromedaeB.xml",
+		"spriteFolder": "shipLogs/sprites/facts",
+		"mapMode": {
+			"revealedSprite": "shipLogs/sprites/mapmode/UpsilonAndromedaeBMapMode.png"
+		}
+	},
+	"Props": {
+		"reveal": [
+			{
+				"radius": 15000,
+				"reveals": [ "UPSILON_ANDROMEDAE_B_FACT" ],
+				"revealOn": "enter"
+			}
+		]
+	}
+}

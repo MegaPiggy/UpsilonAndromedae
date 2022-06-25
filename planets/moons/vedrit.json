@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Vedrit",
+	"starSystem": "MegaPiggy.UpsilonAndromedae",
+	"Base": {
+		"surfaceGravity": 4,
+		"surfaceSize": 25,
+		"hasMapMarker": true,
+		"ambientLight": 0.25
+	},
+	"Orbit": {
+		"semiMajorAxis": 1950,
+		"trueAnomaly": 90,
+		"primaryBody": "Majriti",
+		"isMoon": true,
+		"isTidallyLocked": true
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/vedrit_heightmap.png",
+		"textureMap": "planets/assets/vedrit_texturemap.png",
+		"minHeight": 23,
+		"maxHeight": 25
+	}
+}

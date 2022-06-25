@@ -1,0 +1,23 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>MAJRITI</ID>
+
+  <Entry>
+    <ID>MAJRITI_ENTRY</ID>
+    <Name>Majriti</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>MAJRITI_RUMOR</ID>
+      <SourceID>TITAWIN_ENTRY</SourceID>
+      <RumorName>Majriti</RumorName>
+      <Text>The third planet from Titawin.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>MAJRITI_LANDING</ID>
+      <Text>Majriti is a gassy orange-white planet and is the third planet from Titawin. It has the most moons in the star system.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

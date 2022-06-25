@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Upsilon Andromedae",
+	"starSystem": "MegaPiggy.UpsilonAndromedae",
+	"Base": {
+		"surfaceSize": 0,
+		"surfaceGravity": 0,
+		"soiOverride": 0,
+		"hasMapMarker": false,
+		"showMinimap": false,
+		"centerOfSolarSystem": true
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true,
+		"maxTargetDistance": 0,
+		"bracketRadius": 0,
+		"targetWhenClose": false
+	},
+	"FocalPoint": {
+		"primary": "Titawin",
+		"secondary": "Upsilon Andromedae B"
+	},
+	"ShipLog": {
+		"xmlFile": "shipLogs/UpsilonAndromedae.xml",
+		"spriteFolder": "shipLogs/sprites/facts"
+	}
+}

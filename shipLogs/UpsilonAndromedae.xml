@@ -1,0 +1,16 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>UPSILON_ANDROMEDAE</ID>
+
+  <Entry>
+    <ID>UPSILON_ANDROMEDAE_ENTRY</ID>
+    <Name>Upsilon Andromedae</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+    <isCuriosity/>
+
+    <ExploreFact>
+      <ID>UPSILON_ANDROMEDAE_FACT</ID>
+      <Text>A binary star system.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

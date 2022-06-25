@@ -1,0 +1,22 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>UPSILON_ANDROMEDAE_B</ID>
+
+  <Entry>
+    <ID>UPSILON_ANDROMEDAE_B_ENTRY</ID>
+    <Name>Upsilon Andromedae B</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>UPSILON_ANDROMEDAE_B_RUMOR</ID>
+      <SourceID>UPSILON_ANDROMEDAE_ENTRY</SourceID>
+      <RumorName>Upsilon Andromedae B</RumorName>
+      <Text>A red dwarf.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>UPSILON_ANDROMEDAE_B_FACT</ID>
+      <Text>A red dwarf with only one planet orbiting it.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

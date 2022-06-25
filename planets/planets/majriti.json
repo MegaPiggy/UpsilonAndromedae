@@ -1,0 +1,75 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Majriti",
+	"starSystem": "MegaPiggy.UpsilonAndromedae",
+	"Base": {
+		"surfaceGravity": 20,
+		"surfaceSize": 444,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 35300,
+		"inclination": 23.758,
+		"eccentricity": 0.299,
+		"primaryBody": "Titawin",
+		"longitudeOfAscendingNode": 4.073,
+		"argumentOfPeriapsis": 252.991,
+		"axialTilt": 30,
+		"trueAnomaly": 0,
+		"isMoon": false
+	},
+	"Lava": {
+		"size": 200
+	},
+	"Water": {
+		"size": 400
+	},
+	"Atmosphere": {
+		"size": 555,
+		"clouds": {
+			"outerCloudRadius": 555,
+			"innerCloudRadius": 500,
+			"fluidType": "cloud",
+			"texturePath": "planets/assets/majriti.png",
+			"capPath": "planets/assets/majriti_cap.png",
+			"tint": {
+				"r": 202,
+				"g": 171,
+				"b": 117,
+				"a": 255
+			}
+		},
+		"fogTint": {
+			"r": 200,
+			"g": 128,
+			"b": 128,
+			"a": 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 500,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 255,
+			"g": 200,
+			"b": 128,
+			"a": 255
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "shipLogs/Majriti.xml",
+		"spriteFolder": "shipLogs/sprites/facts",
+		"mapMode": {
+			"revealedSprite": "shipLogs/sprites/mapmode/MajritiMapMode.png"
+		}
+	},
+	"Props": {
+		"reveal": [
+			{
+				"radius": 555,
+				"reveals": [ "MAJRITI_LANDING" ],
+				"revealOn": "enter"
+			}
+		]
+	}
+}

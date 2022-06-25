@@ -1,0 +1,23 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>ADHAB</ID>
+
+  <Entry>
+    <ID>ADHAB_ENTRY</ID>
+    <Name>Adhab</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>ADHAB_RUMOR</ID>
+      <SourceID>UPSILON_ANDROMEDAE_B_ENTRY</SourceID>
+      <RumorName>Adhab</RumorName>
+      <Text>The only planet orbiting Upsilon Andromedae B.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>ADHAB_LANDING</ID>
+      <Text>Adhab is a stony lava planet and is the only planet orbiting Upsilon Andromedae B.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

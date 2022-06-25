@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Adhab",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 12,
+    "surfaceSize": 150,
+    "hasMapMarker": true,
+    "ambientLight": 1.4
+  },
+  "Orbit": {
+    "semiMajorAxis": 4000,
+    "inclination": 0,
+    "primaryBody": "Upsilon Andromedae B",
+    "isMoon": false,
+    "isTidallyLocked": true,
+    "alignmentAxis": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "Lava": {
+    "size": 152
+  },
+  "Atmosphere": {
+    "useAtmosphereShader": true,
+    "size": 200,
+    "atmosphereTint": {
+      "r": 200,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    }
+  },
+  "HeightMap": {
+    "heightMap": "planets/assets/adhab_heightmap.png",
+    "textureMap": "planets/assets/adhab_texturemap.png",
+    "minHeight": 150,
+    "maxHeight": 160
+  },
+  "ShipLog": {
+    "xmlFile": "shipLogs/Adhab.xml",
+    "spriteFolder": "shipLogs/sprites/facts"
+  },
+  "Props": {
+    "reveal": [
+      {
+        "radius": 200,
+        "reveals": [ "ADHAB_LANDING" ],
+        "revealOn": "enter"
+      }
+    ]
+  }
+}

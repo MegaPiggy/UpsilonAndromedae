@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Timber Hearth",
+	"Singularity": {
+		"Type": "BlackHole",
+		"TargetStarSystem": "MegaPiggy.UpsilonAndromedae",
+		"Size": 4,
+		"Position": {
+			"x": 27,
+			"y": -39,
+			"z": 187
+		}
+	},
+	"Signal": {
+		"Signals": [
+			{
+				"Frequency": "Default",
+				"name": "Gateway to Upsilon Andromedae",
+				"AudioClip": "OW_NM_WhiteHoleAmbienceL",
+				"SourceRadius": 3,
+				"Position": {
+					"x": 27,
+					"y": -39,
+					"z": 187
+				},
+				"IdentificationRadius": 6,
+				"DetectionRadius": 10
+			}
+		]
+	}
+}

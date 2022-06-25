@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Aura",
+	"starSystem": "MegaPiggy.UpsilonAndromedae",
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 100,
+		"hasMapMarker": true,
+		"ambientLight": 1
+	},
+	"Orbit": {
+		"semiMajorAxis": 1500,
+		"primaryBody": "Curiel",
+		"isMoon": true,
+		"isTidallyLocked": true
+	},
+	"Water": {
+		"size": 94
+	},
+	"Atmosphere": {
+		"hasOxygen": true,
+		"useAtmosphereShader": true,
+		"size": 125,
+		"fogTint": {
+			"r": 90,
+			"g": 128,
+			"b": 128,
+			"a": 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 125
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/aura_heightmap.jpg",
+		"textureMap": "planets/assets/aura_texturemap.jpg",
+		"minHeight": 90,
+		"maxHeight": 100
+	}
+}

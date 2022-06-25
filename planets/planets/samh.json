@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Samh",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 20,
+    "surfaceSize": 440,
+    "hasMapMarker": true,
+    "ambientLight": 0.5
+  },
+  "Orbit": {
+    "semiMajorAxis": 18290,
+    "inclination": 7.868,
+    "eccentricity": 0.260,
+    "primaryBody": "Titawin",
+    "longitudeOfAscendingNode": 236.853,
+    "argumentOfPeriapsis": 247.66,
+    "axialTilt": 30,
+    "trueAnomaly": 0,
+    "isMoon": false
+  },
+  "Lava": {
+    "size": 300
+  },
+  "Water": {
+    "size": 395
+  },
+  "Atmosphere": {
+    "size": 550,
+    "clouds": {
+      "outerCloudRadius": 550,
+      "innerCloudRadius": 495,
+      "fluidType": "cloud",
+      "texturePath": "planets/assets/samh.png",
+      "tint": {
+        "r": 181,
+        "g": 181,
+        "b": 230,
+        "a": 255
+      }
+    },
+    "fogTint": {
+      "r": 128,
+      "g": 128,
+      "b": 255,
+      "a": 255
+    },
+    "fogDensity": 0.9,
+    "fogSize": 495,
+    "useAtmosphereShader": true,
+    "atmosphereTint": {
+      "r": 10,
+      "g": 90,
+      "b": 220,
+      "a": 255
+    }
+  },
+  "Ring": {
+    "texture": "planets/assets/samh_rings.png",
+    "fluidType": "sand",
+    "innerRadius": 650,
+    "outerRadius": 1000
+  },
+  "ShipLog": {
+    "xmlFile": "shipLogs/Samh.xml",
+    "spriteFolder": "shipLogs/sprites/facts"
+  },
+  "Props": {
+    "reveal": [
+      {
+        "radius": 550,
+        "reveals": [ "SAMH_LANDING" ],
+        "revealOn": "enter"
+      },
+      {
+        "radius": 1000,
+        "reveals": [ "SAMH_RINGS" ],
+        "revealOn": "enter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>SAMH</ID>
+
+  <Entry>
+    <ID>SAMH_ENTRY</ID>
+    <Name>Samh</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>SAMH_RUMOR</ID>
+      <SourceID>TITAWIN_ENTRY</SourceID>
+      <RumorName>Samh</RumorName>
+      <Text>The second planet from Titawin.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SAMH_LANDING</ID>
+      <Text>Samh is a gassy blue planet and is the second planet from Titawin.</Text>
+    </ExploreFact>
+
+  </Entry>
+
+  <Entry>
+    <ID>SAMH_RINGS_ENTRY</ID>
+    <Name>Ring System</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>SAMH_RINGS_RUMOR</ID>
+      <SourceID>SAMH_ENTRY</SourceID>
+      <RumorName>Ring System</RumorName>
+      <Text>Samh has a ring system.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SAMH_RINGS</ID>
+      <Text>Samh has a blue ring system.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

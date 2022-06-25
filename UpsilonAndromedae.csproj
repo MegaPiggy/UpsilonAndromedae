@@ -1,0 +1,220 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>default</LangVersion>
+    <Copyright>Copyright © 2020</Copyright>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <ProjectView>ProjectFiles</ProjectView>
+    <OuterWildsModsDirectory>$(AppData)\OuterWildsModManager\OWML\Mods</OuterWildsModsDirectory>
+    <Authors>MegaPiggy</Authors>
+    <AssemblyTitle>$(ProjectName)</AssemblyTitle>
+    <Product>$(ProjectName)</Product>
+    <OutputPath>Build</OutputPath>
+    <ModName>$(Authors).$(MSBuildProjectName)</ModName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OWML" Version="2.3.2.1" />
+    <PackageReference Include="OuterWildsGameLibs" Version="1.1.12.168" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default-config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\adhab_heightmap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\adhab_texturemap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\blank_heightmap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\britomartis_clouds.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\britomartis_heightmap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\britomartis_texturemap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\capri.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\curiel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\aura_texturemap.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\aura_heightmap.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\ForYou.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\oz_texturemap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\quadrolatum_heightmap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\quadrolatum_texturemap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\samh_rings.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\tuitan.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\majriti.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\saffar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\samh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\tion.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\vedrit_heightmap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\assets\vedrit_texturemap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\Gateway.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\MegaPiggy.UpsilonAndromedae.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\aura.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\vedrit.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\britomartis.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\capri.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\tuitan.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\oz.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\quadrolatum.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\moons\tion.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\planets\adhab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\planets\curiel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\planets\majriti.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\planets\saffar.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\planets\samh.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\upsilon_andromedae.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\upsilon_andromedae_b.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="planets\upsilon_andromedae_a.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\Adhab.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\Curiel.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\Majriti.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\Saffar.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\Samh.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\ADHAB_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\CURIEL_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\MAJRITI_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\SAFFAR_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\SAMH_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\SAMH_RINGS_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\TITAWIN_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\UPSILON_ANDROMEDAE_B_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\facts\UPSILON_ANDROMEDAE_ENTRY.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\mapmode\MajritiMapMode.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\mapmode\UpsilonAndromedaeBMapMode.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\sprites\mapmode\TitawinMapMode.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\Titawin.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\UpsilonAndromedae.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="shipLogs\UpsilonAndromedaeB.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="systems\MegaPiggy.UpsilonAndromedae.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="echo ‎&#xD;&#xA;echo         Transferring files to $(OuterWildsModsDirectory)\$(ModName)&#xD;&#xA;@rmdir /Q /S &quot;$(OuterWildsModsDirectory)\$(ModName)\&quot;&#xD;&#xA;@md &quot;$(OuterWildsModsDirectory)\$(ModName)\&quot;&#xD;&#xA;@copy /y &quot;$(ProjectDir)default-config.json&quot; &quot;$(OuterWildsModsDirectory)\$(ModName)\&quot;&#xD;&#xA;@copy /y &quot;$(ProjectDir)manifest.json&quot; &quot;$(OuterWildsModsDirectory)\$(ModName)\&quot;&#xD;&#xA;@copy /y &quot;$(TargetPath)&quot; &quot;$(OuterWildsModsDirectory)\$(ModName)\&quot;&#xD;&#xA;xcopy &quot;$(ProjectDir)planets\&quot; &quot;$(OuterWildsModsDirectory)\$(ModName)\planets\&quot; /e /y /i /r&#xD;&#xA;xcopy &quot;$(ProjectDir)shipLogs\&quot; &quot;$(OuterWildsModsDirectory)\$(ModName)\shipLogs\&quot; /e /y /i /r&#xD;&#xA;xcopy &quot;$(ProjectDir)systems\&quot; &quot;$(OuterWildsModsDirectory)\$(ModName)\systems\&quot; /e /y /i /r&#xD;&#xA;echo ‎&#xD;&#xA;echo         Transferring files to $(ProjectDir)\$(ModName)&#xD;&#xA;@rmdir /Q /S &quot;$(ProjectDir)\$(ModName)\&quot;&#xD;&#xA;@md &quot;$(ProjectDir)\$(ModName)\&quot;&#xD;&#xA;@copy /y &quot;$(ProjectDir)default-config.json&quot; &quot;$(ProjectDir)\$(ModName)\&quot;&#xD;&#xA;@copy /y &quot;$(ProjectDir)manifest.json&quot; &quot;$(ProjectDir)\$(ModName)\&quot;&#xD;&#xA;@copy /y &quot;$(TargetPath)&quot; &quot;$(ProjectDir)\$(ModName)\&quot;&#xD;&#xA;xcopy &quot;$(ProjectDir)planets\&quot; &quot;$(ProjectDir)\$(ModName)\planets\&quot; /e /y /i /r&#xD;&#xA;xcopy &quot;$(ProjectDir)shipLogs\&quot; &quot;$(ProjectDir)\$(ModName)\shipLogs\&quot; /e /y /i /r&#xD;&#xA;xcopy &quot;$(ProjectDir)systems\&quot; &quot;$(ProjectDir)\$(ModName)\systems\&quot; /e /y /i /r&#xD;&#xA;del /q &quot;$(ProjectDir)$(ModName).zip&quot;&#xD;&#xA;powershell Compress-Archive &quot;$(ProjectDir)$(ModName)&quot; &quot;$(ProjectDir)$(ModName).zip&quot;&#xD;&#xA;rmdir /Q /S &quot;$(ProjectDir)$(ModName)\&quot;&#xD;&#xA;" />
+  </Target>
+  <ProjectExtensions><VisualStudio><UserProperties systems_4megapiggy_1upsilonandromedae_1json__JsonSchema="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json" /></VisualStudio></ProjectExtensions>
+</Project>
