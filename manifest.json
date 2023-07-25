@@ -1,9 +1,11 @@
 {
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "UpsilonAndromedae.dll",
   "author": "MegaPiggy",
   "name": "Upsilon Andromedae",
   "uniqueName": "MegaPiggy.UpsilonAndromedae",
   "version": "1.0.1",
   "owmlVersion": "2.3.2",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": [ "xen.NewHorizons" ],
+  "pathsToPreserve": [ "planets", "systems", "translations", "shipLogs" ]
 }
