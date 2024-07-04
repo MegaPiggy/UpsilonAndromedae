@@ -6,9 +6,11 @@
     "surfaceSize": 0,
     "surfaceGravity": 0,
     "soiOverride": 0,
-    "hasMapMarker": false,
     "showMinimap": false,
     "centerOfSolarSystem": true
+  },
+  "MapMarker": {
+    "enabled": false
   },
   "Orbit": {
     "isStatic": true

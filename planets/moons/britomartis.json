@@ -3,24 +3,34 @@
   "name": "Britomartis",
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Spawn": {
-    "playerSpawnPoint": {
-      "x": 17.7848,
-      "y": 58.852,
-      "z": 81.3177
+    "playerSpawn": {
+      "position": {
+        "x": 17.7848,
+        "y": 58.852,
+        "z": 81.3177
+      },
+      "startWithSuit": true
     },
-    "shipSpawnPoint": {
-      "x": -19.0467,
-      "y": 67.738,
-      "z": 73.7743
-    },
-    "startWithSuit": true
+    "shipSpawn": {
+      "position": {
+        "x": -19.0467,
+        "y": 67.738,
+        "z": 73.7743
+      }
+    }
   },
   "Base": {
     "surfaceGravity": 12,
-    "surfaceSize": 100,
-    "hasMapMarker": true,
-    "ambientLight": 1
+    "surfaceSize": 100
   },
+  "MapMarker": {
+    "enabled": true
+  },
+  "AmbientLights": [
+    {
+      "intensity": 1
+    }
+  ],
   "Orbit": {
     "semiMajorAxis": 1250,
     "primaryBody": "Majriti",

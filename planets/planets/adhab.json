@@ -4,10 +4,16 @@
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Base": {
     "surfaceGravity": 12,
-    "surfaceSize": 150,
-    "hasMapMarker": true,
-    "ambientLight": 1.4
+    "surfaceSize": 150
   },
+  "MapMarker": {
+    "enabled": true
+  },
+  "AmbientLights": [
+    {
+      "intensity": 1.4
+    }
+  ],
   "Orbit": {
     "semiMajorAxis": 4000,
     "inclination": 0,
@@ -46,8 +52,8 @@
       "revealedSprite": "shipLogs/sprites/mapmode/AdhabMapMode.png"
     }
   },
-  "Props": {
-    "reveal": [
+  "Volumes": {
+    "revealVolumes": [
       {
         "radius": 200,
         "reveals": [ "ADHAB_LANDING" ],

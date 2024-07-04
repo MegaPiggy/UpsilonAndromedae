@@ -4,10 +4,16 @@
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Base": {
     "surfaceGravity": 12,
-    "surfaceSize": 100,
-    "hasMapMarker": true,
-    "ambientLight": 0.25
+    "surfaceSize": 100
   },
+  "MapMarker": {
+    "enabled": true
+  },
+  "AmbientLights": [
+    {
+      "intensity": 0.25
+    }
+  ],
   "Orbit": {
     "semiMajorAxis": 1500,
     "primaryBody": "Saffar",

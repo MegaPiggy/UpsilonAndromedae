@@ -4,10 +4,16 @@
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Base": {
     "surfaceGravity": 12,
-    "surfaceSize": 100,
-    "hasMapMarker": true,
-    "ambientLight": 1
+    "surfaceSize": 100
   },
+  "MapMarker": {
+    "enabled": true
+  },
+  "AmbientLights": [
+    {
+      "intensity": 1
+    }
+  ],
   "Orbit": {
     "semiMajorAxis": 1500,
     "primaryBody": "Curiel",
@@ -48,8 +54,8 @@
       "revealedSprite": "shipLogs/sprites/mapmode/AuraMapMode.png"
     }
   },
-  "Props": {
-    "reveal": [
+  "Volumes": {
+    "revealVolumes": [
       {
         "radius": 125,
         "reveals": [ "AURA_LANDING" ],

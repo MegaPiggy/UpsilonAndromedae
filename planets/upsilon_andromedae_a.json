@@ -5,8 +5,10 @@
 	"Base": {
 		"surfaceGravity": 146,
 		"surfaceSize": 1480,
-		"hasMapMarker": true,
 		"gravityFallOff": "inverseSquared"
+	},
+	"MapMarker": {
+	  "enabled": true
 	},
 	"Orbit": {
 		"semiMajorAxis": 1185,
@@ -28,6 +30,7 @@
 	},
 	"Star": {
 		"size": 2960,
+		"stellarDeathType": "planetaryNebula",
 		"lightRadius": 100000,
 		"tint": {
 			"r": 181,

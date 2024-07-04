@@ -4,10 +4,16 @@
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Base": {
     "surfaceGravity": 20,
-    "surfaceSize": 520,
-    "hasMapMarker": true,
-    "ambientLight": 0.5
+    "surfaceSize": 520
   },
+  "MapMarker": {
+    "enabled": true
+  },
+  "AmbientLights": [
+    {
+      "intensity": 0.5
+    }
+  ],
   "Orbit": {
     "semiMajorAxis": 10594,
     "inclination": 24,
@@ -68,8 +74,8 @@
       "revealedSprite": "shipLogs/sprites/mapmode/SaffarMapMode.png"
     }
   },
-  "Props": {
-    "reveal": [
+  "Volumes": {
+    "revealVolumes": [
       {
         "radius": 650,
         "reveals": [ "SAFFAR_LANDING" ],
