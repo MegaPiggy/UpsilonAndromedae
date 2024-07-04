@@ -1,28 +1,34 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Tuitan",
-	"starSystem": "MegaPiggy.UpsilonAndromedae",
-	"Base": {
-		"surfaceGravity": 12,
-		"surfaceSize": 100,
-		"hasMapMarker": true,
-		"ambientLight": 0.25
-	},
-	"Orbit": {
-		"semiMajorAxis": 1500,
-		"primaryBody": "Samh",
-		"isMoon": true,
-		"isTidallyLocked": true,
-		"alignmentAxis": {
-			"x": -1,
-			"y": 0,
-			"z": 0
-		}
-	},
-	"HeightMap": {
-		"heightMap": "planets/assets/blank_heightmap.png",
-		"textureMap": "planets/assets/tuitan.png",
-		"minHeight": 90,
-		"maxHeight": 100
-	}
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Tuitan",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 12,
+    "surfaceSize": 100,
+    "hasMapMarker": true,
+    "ambientLight": 0.25
+  },
+  "Orbit": {
+    "semiMajorAxis": 1500,
+    "primaryBody": "Samh",
+    "isMoon": true,
+    "isTidallyLocked": true,
+    "alignmentAxis": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "HeightMap": {
+    "heightMap": "planets/assets/blank_heightmap.png",
+    "textureMap": "planets/assets/tuitan.png",
+    "minHeight": 90,
+    "maxHeight": 100
+  },
+  "ShipLog": {
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/TuitanMapMode.png"
+    }
+  }
 }

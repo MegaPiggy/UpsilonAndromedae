@@ -63,7 +63,10 @@
   },
   "ShipLog": {
     "xmlFile": "shipLogs/Samh.xml",
-    "spriteFolder": "shipLogs/sprites/facts"
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/SamhMapMode.png"
+    }
   },
   "Props": {
     "reveal": [

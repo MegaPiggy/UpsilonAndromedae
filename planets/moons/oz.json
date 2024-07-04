@@ -1,29 +1,35 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Oz",
-	"starSystem": "MegaPiggy.UpsilonAndromedae",
-	"Base": {
-		"surfaceGravity": 4,
-		"surfaceSize": 25,
-		"hasMapMarker": true,
-		"ambientLight": 0.25
-	},
-	"Orbit": {
-		"semiMajorAxis": 2050,
-		"trueAnomaly": 45,
-		"primaryBody": "Majriti",
-		"isMoon": true,
-		"isTidallyLocked": true,
-		"alignmentAxis": {
-			"x": -1,
-			"y": 0,
-			"z": 0
-		}
-	},
-	"HeightMap": {
-		"heightMap": "planets/assets/blank_heightmap.png",
-		"textureMap": "planets/assets/oz_texturemap.png",
-		"minHeight": 23,
-		"maxHeight": 25
-	}
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Oz",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 4,
+    "surfaceSize": 25,
+    "hasMapMarker": true,
+    "ambientLight": 0.25
+  },
+  "Orbit": {
+    "semiMajorAxis": 2050,
+    "trueAnomaly": 45,
+    "primaryBody": "Majriti",
+    "isMoon": true,
+    "isTidallyLocked": true,
+    "alignmentAxis": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "HeightMap": {
+    "heightMap": "planets/assets/blank_heightmap.png",
+    "textureMap": "planets/assets/oz_texturemap.png",
+    "minHeight": 23,
+    "maxHeight": 25
+  },
+  "ShipLog": {
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/OzMapMode.png"
+    }
+  }
 }

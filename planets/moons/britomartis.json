@@ -1,64 +1,70 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Britomartis",
-	"starSystem": "MegaPiggy.UpsilonAndromedae",
-	"Spawn": {
-		"playerSpawnPoint": {
-			"x": 17.7848,
-			"y": 58.852,
-			"z": 81.3177
-		},
-		"shipSpawnPoint": {
-			"x": -19.0467,
-			"y": 67.738,
-			"z": 73.7743
-		},
-		"startWithSuit": true
-	},
-	"Base": {
-		"surfaceGravity": 12,
-		"surfaceSize": 100,
-		"hasMapMarker": true,
-		"ambientLight": 1
-	},
-	"Orbit": {
-		"semiMajorAxis": 1250,
-		"primaryBody": "Majriti",
-		"isMoon": true,
-		"siderealPeriod": 5
-	},
-	"Water": {
-		"size": 97
-	},
-	"Atmosphere": {
-		"hasOxygen": true,
-		"useAtmosphereShader": true,
-		"size": 125,
-		"clouds": {
-			"texturePath": "planets/assets/britomartis_clouds.png",
-			"fluidType": "cloud",
-			"innerCloudRadius": 125,
-			"outerCloudRadius": 150,
-			"tint": {
-				"r": 255,
-				"g": 255,
-				"b": 255,
-				"a": 255
-			}
-		},
-		"fogTint": {
-			"r": 90,
-			"g": 128,
-			"b": 128,
-			"a": 255
-		},
-		"fogDensity": 0.1,
-		"fogSize": 125
-	},
-	"HeightMap": {
-		"heightMap": "planets/assets/britomartis_heightmap.png",
-		"textureMap": "planets/assets/britomartis_texturemap.png",
-		"minHeight": 96,
-		"maxHeight": 100
-	}
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Britomartis",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Spawn": {
+    "playerSpawnPoint": {
+      "x": 17.7848,
+      "y": 58.852,
+      "z": 81.3177
+    },
+    "shipSpawnPoint": {
+      "x": -19.0467,
+      "y": 67.738,
+      "z": 73.7743
+    },
+    "startWithSuit": true
+  },
+  "Base": {
+    "surfaceGravity": 12,
+    "surfaceSize": 100,
+    "hasMapMarker": true,
+    "ambientLight": 1
+  },
+  "Orbit": {
+    "semiMajorAxis": 1250,
+    "primaryBody": "Majriti",
+    "isMoon": true,
+    "siderealPeriod": 5
+  },
+  "Water": {
+    "size": 97
+  },
+  "Atmosphere": {
+    "hasOxygen": true,
+    "useAtmosphereShader": true,
+    "size": 125,
+    "clouds": {
+      "texturePath": "planets/assets/britomartis_clouds.png",
+      "fluidType": "cloud",
+      "innerCloudRadius": 125,
+      "outerCloudRadius": 150,
+      "tint": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    },
+    "fogTint": {
+      "r": 90,
+      "g": 128,
+      "b": 128,
+      "a": 255
+    },
+    "fogDensity": 0.1,
+    "fogSize": 125
+  },
+  "HeightMap": {
+    "heightMap": "planets/assets/britomartis_heightmap.png",
+    "textureMap": "planets/assets/britomartis_texturemap.png",
+    "minHeight": 96,
+    "maxHeight": 100
+  },
+  "ShipLog": {
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/BritomartisMapMode.png"
+    }
+  }
 }

@@ -1,0 +1,23 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>AURA</ID>
+
+  <Entry>
+    <ID>AURA_ENTRY</ID>
+    <Name>Aura</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>AURA_RUMOR</ID>
+      <SourceID>TITAWIN_ENTRY</SourceID>
+      <RumorName>Aura</RumorName>
+      <Text>A moon orbiting Curiel.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>AURA_LANDING</ID>
+      <Text>Aura is a habitable moon of Curiel.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

@@ -24,5 +24,11 @@
     "textureMap": "planets/assets/capri.jpg",
     "minHeight": 50,
     "maxHeight": 50
+  },
+  "ShipLog": {
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/CapriMapMode.png"
+    }
   }
 }

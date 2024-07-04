@@ -41,7 +41,10 @@
   },
   "ShipLog": {
     "xmlFile": "shipLogs/Adhab.xml",
-    "spriteFolder": "shipLogs/sprites/facts"
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/AdhabMapMode.png"
+    }
   },
   "Props": {
     "reveal": [

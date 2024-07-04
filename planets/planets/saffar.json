@@ -1,77 +1,80 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Saffar",
-	"starSystem": "MegaPiggy.UpsilonAndromedae",
-	"Base": {
-		"surfaceGravity": 20,
-		"surfaceSize": 520,
-		"hasMapMarker": true,
-		"ambientLight": 0.5
-	},
-	"Orbit": {
-		"semiMajorAxis": 10594,
-		"inclination": 24,
-		"eccentricity": 0.022,
-		"primaryBody": "Titawin",
-		"longitudeOfAscendingNode": 74,
-		"argumentOfPeriapsis": 44.11,
-		"axialTilt": 90,
-		"trueAnomaly": 0,
-		"isMoon": false,
-		"isTidallyLocked": true,
-		"alignmentAxis": {
-			"x": -1,
-			"y": 0,
-			"z": 0
-		}
-	},
-	"Lava": {
-		"size": 200
-	},
-	"Water": {
-		"size": 400
-	},
-	"Atmosphere": {
-		"size": 650,
-		"clouds": {
-			"outerCloudRadius": 650,
-			"innerCloudRadius": 585,
-			"fluidType": "cloud",
-			"texturePath": "planets/assets/saffar.png",
-			"tint": {
-				"r": 181,
-				"g": 181,
-				"b": 230,
-				"a": 255
-			}
-		},
-		"fogTint": {
-			"r": 255,
-			"g": 128,
-			"b": 128,
-			"a": 255
-		},
-		"fogDensity": 0.9,
-		"fogSize": 585,
-		"useAtmosphereShader": true,
-		"atmosphereTint": {
-			"r": 255,
-			"g": 200,
-			"b": 128,
-			"a": 255
-		}
-	},
-	"ShipLog": {
-		"xmlFile": "shipLogs/Saffar.xml",
-		"spriteFolder": "shipLogs/sprites/facts"
-	},
-	"Props": {
-		"reveal": [
-			{
-				"radius": 650,
-				"reveals": [ "SAFFAR_LANDING" ],
-				"revealOn": "enter"
-			}
-		]
-	}
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Saffar",
+  "starSystem": "MegaPiggy.UpsilonAndromedae",
+  "Base": {
+    "surfaceGravity": 20,
+    "surfaceSize": 520,
+    "hasMapMarker": true,
+    "ambientLight": 0.5
+  },
+  "Orbit": {
+    "semiMajorAxis": 10594,
+    "inclination": 24,
+    "eccentricity": 0.022,
+    "primaryBody": "Titawin",
+    "longitudeOfAscendingNode": 74,
+    "argumentOfPeriapsis": 44.11,
+    "axialTilt": 90,
+    "trueAnomaly": 0,
+    "isMoon": false,
+    "isTidallyLocked": true,
+    "alignmentAxis": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "Lava": {
+    "size": 200
+  },
+  "Water": {
+    "size": 400
+  },
+  "Atmosphere": {
+    "size": 650,
+    "clouds": {
+      "outerCloudRadius": 650,
+      "innerCloudRadius": 585,
+      "fluidType": "cloud",
+      "texturePath": "planets/assets/saffar.png",
+      "tint": {
+        "r": 181,
+        "g": 181,
+        "b": 230,
+        "a": 255
+      }
+    },
+    "fogTint": {
+      "r": 255,
+      "g": 128,
+      "b": 128,
+      "a": 255
+    },
+    "fogDensity": 0.9,
+    "fogSize": 585,
+    "useAtmosphereShader": true,
+    "atmosphereTint": {
+      "r": 255,
+      "g": 200,
+      "b": 128,
+      "a": 255
+    }
+  },
+  "ShipLog": {
+    "xmlFile": "shipLogs/Saffar.xml",
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/SaffarMapMode.png"
+    }
+  },
+  "Props": {
+    "reveal": [
+      {
+        "radius": 650,
+        "reveals": [ "SAFFAR_LANDING" ],
+        "revealOn": "enter"
+      }
+    ]
+  }
 }

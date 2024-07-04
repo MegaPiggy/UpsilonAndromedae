@@ -57,7 +57,10 @@
   },
   "ShipLog": {
     "xmlFile": "shipLogs/Curiel.xml",
-    "spriteFolder": "shipLogs/sprites/facts"
+    "spriteFolder": "shipLogs/sprites/facts",
+    "mapMode": {
+      "revealedSprite": "shipLogs/sprites/mapmode/CurielMapMode.png"
+    }
   },
   "Props": {
     "reveal": [
