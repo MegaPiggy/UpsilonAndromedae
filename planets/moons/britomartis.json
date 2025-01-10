@@ -3,21 +3,27 @@
   "name": "Britomartis",
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Spawn": {
-    "playerSpawn": {
-      "position": {
-        "x": 17.7848,
-        "y": 58.852,
-        "z": 81.3177
-      },
-      "startWithSuit": true
-    },
-    "shipSpawn": {
-      "position": {
-        "x": -19.0467,
-        "y": 67.738,
-        "z": 73.7743
+    "playerSpawnPoints": [
+      {
+        "alignRadial": true,
+        "position": {
+          "x": 0.82,
+          "y": 56.69,
+          "z": 79.66
+        },
+        "startWithSuit": true
       }
-    }
+    ],
+    "shipSpawnPoints": [
+      {
+        "alignRadial": true,
+        "position": {
+          "x": -9.72,
+          "y": 60.58,
+          "z": 76.09
+        }
+      }
+    ]
   },
   "Base": {
     "surfaceGravity": 12,
@@ -28,7 +34,9 @@
   },
   "AmbientLights": [
     {
-      "intensity": 1
+      "intensity": 1,
+      "innerRadius": 95,
+      "outerRadius": 130
     }
   ],
   "Orbit": {
@@ -42,13 +50,16 @@
   },
   "Atmosphere": {
     "hasOxygen": true,
+    "hasTrees": true,
     "useAtmosphereShader": true,
-    "size": 125,
+    "size": 110,
     "clouds": {
+      "cloudsPrefab": "transparent",
       "texturePath": "planets/assets/britomartis_clouds.png",
       "fluidType": "cloud",
-      "innerCloudRadius": 125,
-      "outerCloudRadius": 150,
+      "innerCloudRadius": 110,
+      "outerCloudRadius": 120,
+      "rotationSpeed": 1,
       "tint": {
         "r": 255,
         "g": 255,
@@ -63,7 +74,7 @@
       "a": 255
     },
     "fogDensity": 0.1,
-    "fogSize": 125
+    "fogSize": 110
   },
   "HeightMap": {
     "heightMap": "planets/assets/britomartis_heightmap.png",
@@ -72,9 +83,75 @@
     "maxHeight": 100
   },
   "ShipLog": {
+    "xmlFile": "shipLogs/Britomartis.xml",
     "spriteFolder": "shipLogs/sprites/facts",
     "mapMode": {
       "revealedSprite": "shipLogs/sprites/mapmode/BritomartisMapMode.png"
     }
+  },
+  "Props": {
+    "details": [
+      {
+        "rename": "Trees"
+      },
+      {
+        "rename": "Campfire",
+        "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+        "position": {
+          "x": 4.530869,
+          "y": 70.88225,
+          "z": 67.60214
+        },
+        "rotation": {
+          "x": 34.73983,
+          "y": 35.44387,
+          "z": 15.92634
+        }
+      }
+    ],
+    "scatter": [
+      {
+        "minHeight": 98,
+        "maxHeight": 101,
+        "path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+        "count": 20,
+        "scale": 0.5,
+        "offset": {
+          "y": -2
+        },
+        "parentPath": "Sector/Trees"
+      },
+      {
+        "minHeight": 98,
+        "maxHeight": 101,
+        "path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
+        "count": 100,
+        "offset": {
+          "y": -3
+        },
+        "parentPath": "Sector/Trees"
+      }
+    ]
+  },
+  "Volumes": {
+    "dayNightAudioVolumes": [
+      {
+        "radius": 120,
+        "dayAudio": "TH_CanyonAmbienceDay_LP",
+        "nightAudio": "TH_CanyonAmbienceNight_LP",
+        "track": "environment",
+        "dayWindow": 200,
+        "sun": "Titawin"
+      }
+    ],
+    "revealVolumes": [
+      {
+        "radius": 120,
+        "reveals": [
+          "BRITOMARTIS_LANDING"
+        ],
+        "revealOn": "enter"
+      }
+    ]
   }
 }

@@ -14,7 +14,7 @@
       "z": [ 1, 0, 2, 3, 4 ]
     }
   },
-  "initialReveal": [ "UPSILON_ANDROMEDAE_FACT", "TITAWIN_FACT", "TITAWIN_RUMOR", "UPSILON_ANDROMEDAE_B_RUMOR", "SAFFAR_RUMOR", "SAMH_RUMOR", "SAMH_RINGS_RUMOR", "MAJRITI_RUMOR", "CURIEL_RUMOR", "AURA_RUMOR", "ADHAB_RUMOR" ],
+  "initialReveal": [ "UPSILON_ANDROMEDAE_FACT", "TITAWIN_FACT", "TITAWIN_RUMOR", "UPSILON_ANDROMEDAE_B_RUMOR", "SAFFAR_RUMOR", "SAMH_RUMOR", "SAMH_RINGS_RUMOR", "MAJRITI_RUMOR", "BRITOMARTIS_RUMOR", "CURIEL_RUMOR", "AURA_RUMOR", "ADHAB_RUMOR" ],
   "curiosities": [
     {
       "id": "UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY",
@@ -80,6 +80,13 @@
       "position": {
         "x": 600,
         "y": 1800
+      }
+    },
+    {
+      "id": "BRITOMARTIS_ENTRY",
+      "position": {
+        "x": 600,
+        "y": 1600
       }
     },
     {

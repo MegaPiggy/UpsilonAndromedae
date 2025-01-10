@@ -1,0 +1,23 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>BRITOMARTIS</ID>
+
+  <Entry>
+    <ID>BRITOMARTIS_ENTRY</ID>
+    <Name>Britomartis</Name>
+
+    <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>BRITOMARTIS_RUMOR</ID>
+      <SourceID>MAJRITI_ENTRY</SourceID>
+      <RumorName>Britomartis</RumorName>
+      <Text>A moon orbiting Majriti.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>BRITOMARTIS_LANDING</ID>
+      <Text>Britomartis is a habitable moon of Majriti.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>
