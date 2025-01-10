@@ -9,7 +9,7 @@
 
     <RumorFact>
       <ID>AURA_RUMOR</ID>
-      <SourceID>TITAWIN_ENTRY</SourceID>
+      <SourceID>CURIEL_ENTRY</SourceID>
       <RumorName>Aura</RumorName>
       <Text>A moon orbiting Curiel.</Text>
     </RumorFact>
