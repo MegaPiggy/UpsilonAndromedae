@@ -17,7 +17,7 @@
   "Orbit": {
     "semiMajorAxis": 4000,
     "inclination": 0,
-    "primaryBody": "Upsilon Andromedae B",
+    "primaryBody": "Tamuda",
     "isMoon": false,
     "isTidallyLocked": true,
     "alignmentAxis": {

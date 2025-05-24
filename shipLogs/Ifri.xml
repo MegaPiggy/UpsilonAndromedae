@@ -11,12 +11,12 @@
       <ID>IFRI_RUMOR</ID>
       <SourceID>UPSILON_ANDROMEDAE_B_ENTRY</SourceID>
       <RumorName>Ifri</RumorName>
-      <Text>The only planet orbiting Upsilon Andromedae B.</Text>
+      <Text>The only planet orbiting Tamuda.</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>IFRI_LANDING</ID>
-      <Text>Ifri is a stony lava planet and is the only planet orbiting Upsilon Andromedae B.</Text>
+      <Text>Ifri is a stony lava planet and is the only planet orbiting Tamuda.</Text>
     </ExploreFact>
 
   </Entry>

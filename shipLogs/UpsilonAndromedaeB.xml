@@ -3,14 +3,14 @@
 
   <Entry>
     <ID>UPSILON_ANDROMEDAE_B_ENTRY</ID>
-    <Name>Upsilon Andromedae B</Name>
+    <Name>Tamuda</Name>
 
     <Curiosity>UPSILON_ANDROMEDAE_STAR_SYSTEM_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>UPSILON_ANDROMEDAE_B_RUMOR</ID>
       <SourceID>UPSILON_ANDROMEDAE_ENTRY</SourceID>
-      <RumorName>Upsilon Andromedae B</RumorName>
+      <RumorName>Tamuda</RumorName>
       <Text>A red dwarf.</Text>
     </RumorFact>
 
