@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "name": "Adhab",
+  "name": "Ifri",
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Base": {
     "surfaceGravity": 12,
@@ -40,23 +40,23 @@
     }
   },
   "HeightMap": {
-    "heightMap": "planets/assets/adhab_heightmap.png",
-    "textureMap": "planets/assets/adhab_texturemap.png",
+    "heightMap": "planets/assets/ifri_heightmap.png",
+    "textureMap": "planets/assets/ifri_texturemap.png",
     "minHeight": 150,
     "maxHeight": 160
   },
   "ShipLog": {
-    "xmlFile": "shipLogs/Adhab.xml",
+    "xmlFile": "shipLogs/Ifri.xml",
     "spriteFolder": "shipLogs/sprites/facts",
     "mapMode": {
-      "revealedSprite": "shipLogs/sprites/mapmode/AdhabMapMode.png"
+      "revealedSprite": "shipLogs/sprites/mapmode/IfriMapMode.png"
     }
   },
   "Volumes": {
     "revealVolumes": [
       {
         "radius": 200,
-        "reveals": [ "ADHAB_LANDING" ],
+        "reveals": [ "IFRI_LANDING" ],
         "revealOn": "enter"
       }
     ]

@@ -29,10 +29,10 @@
     <None Include="manifest.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="planets\assets\adhab_heightmap.png">
+    <None Update="planets\assets\ifri_heightmap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="planets\assets\adhab_texturemap.png">
+    <None Update="planets\assets\ifri_texturemap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="planets\assets\blank_heightmap.png">
@@ -128,7 +128,7 @@
     <None Update="planets\moons\tion.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="planets\planets\adhab.json">
+    <None Update="planets\planets\ifri.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="planets\planets\curiel.json">
@@ -152,7 +152,7 @@
     <None Update="planets\upsilon_andromedae_a.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="shipLogs\Adhab.xml">
+    <None Update="shipLogs\Ifri.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="shipLogs\Aura.xml">
@@ -170,7 +170,7 @@
     <None Update="shipLogs\Samh.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="shipLogs\sprites\facts\ADHAB_ENTRY.png">
+    <None Update="shipLogs\sprites\facts\IFRI_ENTRY.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="shipLogs\sprites\facts\CURIEL_ENTRY.png">
@@ -197,7 +197,7 @@
     <None Update="shipLogs\sprites\facts\UPSILON_ANDROMEDAE_ENTRY.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="shipLogs\sprites\mapmode\AdhabMapMode.png">
+    <None Update="shipLogs\sprites\mapmode\IfriMapMode.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="shipLogs\sprites\mapmode\AuraMapMode.png">
