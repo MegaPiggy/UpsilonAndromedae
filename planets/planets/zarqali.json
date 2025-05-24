@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "name": "Curiel",
+  "name": "Zarqali",
   "starSystem": "MegaPiggy.UpsilonAndromedae",
   "Base": {
     "surfaceGravity": 20,
@@ -37,7 +37,7 @@
       "outerCloudRadius": 500,
       "innerCloudRadius": 450,
       "fluidType": "cloud",
-      "texturePath": "planets/assets/curiel.png",
+      "texturePath": "planets/assets/zarqali.png",
       "tint": {
         "r": 255,
         "g": 187,
@@ -62,17 +62,17 @@
     }
   },
   "ShipLog": {
-    "xmlFile": "shipLogs/Curiel.xml",
+    "xmlFile": "shipLogs/Zarqali.xml",
     "spriteFolder": "shipLogs/sprites/facts",
     "mapMode": {
-      "revealedSprite": "shipLogs/sprites/mapmode/CurielMapMode.png"
+      "revealedSprite": "shipLogs/sprites/mapmode/ZarqaliMapMode.png"
     }
   },
   "Volumes": {
     "revealVolumes": [
       {
         "radius": 500,
-        "reveals": [ "CURIEL_LANDING" ],
+        "reveals": [ "ZARQALI_LANDING" ],
         "revealOn": "enter"
       }
     ]

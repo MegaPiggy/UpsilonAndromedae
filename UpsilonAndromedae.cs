@@ -66,11 +66,11 @@ namespace UpsilonAndromedae
                 {
                     majriti.GetComponent<AstroObject>()._moon = britomartis.GetComponent<AstroObject>();
                 }
-                GameObject curiel = NewHorizonsAPI.GetPlanet("Curiel");
+                GameObject zarqali = NewHorizonsAPI.GetPlanet("Zarqali");
                 GameObject aura = NewHorizonsAPI.GetPlanet("Aura");
-                if (curiel != null && aura != null)
+                if (zarqali != null && aura != null)
                 {
-                    curiel.GetComponent<AstroObject>()._moon = aura.GetComponent<AstroObject>();
+                    zarqali.GetComponent<AstroObject>()._moon = aura.GetComponent<AstroObject>();
                 }
             }
         }

@@ -9,14 +9,14 @@
 
     <RumorFact>
       <ID>AURA_RUMOR</ID>
-      <SourceID>CURIEL_ENTRY</SourceID>
+      <SourceID>ZARQALI_ENTRY</SourceID>
       <RumorName>Aura</RumorName>
-      <Text>A moon orbiting Curiel.</Text>
+      <Text>A moon orbiting Zarqali.</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>AURA_LANDING</ID>
-      <Text>Aura is a habitable moon of Curiel.</Text>
+      <Text>Aura is a habitable moon of Zarqali.</Text>
     </ExploreFact>
 
   </Entry>

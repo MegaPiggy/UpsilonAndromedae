@@ -50,7 +50,7 @@
     <None Update="planets\assets\capri.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="planets\assets\curiel.png">
+    <None Update="planets\assets\zarqali.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="planets\assets\aura_texturemap.jpg">
@@ -131,7 +131,7 @@
     <None Update="planets\planets\ifri.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="planets\planets\curiel.json">
+    <None Update="planets\planets\zarqali.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="planets\planets\majriti.json">
@@ -158,7 +158,7 @@
     <None Update="shipLogs\Aura.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="shipLogs\Curiel.xml">
+    <None Update="shipLogs\Zarqali.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="shipLogs\Majriti.xml">
@@ -173,7 +173,7 @@
     <None Update="shipLogs\sprites\facts\IFRI_ENTRY.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="shipLogs\sprites\facts\CURIEL_ENTRY.png">
+    <None Update="shipLogs\sprites\facts\ZARQALI_ENTRY.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="shipLogs\sprites\facts\MAJRITI_ENTRY.png">
@@ -212,7 +212,7 @@
     <None Update="shipLogs\sprites\mapmode\CapriMapMode.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="shipLogs\sprites\mapmode\CurielMapMode.png">
+    <None Update="shipLogs\sprites\mapmode\ZarqaliMapMode.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="shipLogs\sprites\mapmode\MajritiMapMode.png">
